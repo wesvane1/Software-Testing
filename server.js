@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const lesson1Controller = require('./cotrollers/lesson1')
+const lesson1Controller = require('./controllers/lesson1')
  
 app.get('/', lesson1Controller.savannaRoute);
 app.get('/doggie', lesson1Controller.peachesRoute);
