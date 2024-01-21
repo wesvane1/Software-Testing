@@ -1,0 +1,4 @@
+// LOCALHOST ALL CONTACTS ### GET http://localhost:8080/contacts
+// LOCALHOST Savanna ### GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29d0
+// LOCALHOST Luc ### GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29d1
+// LOCALHOST Wes### GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29cf
