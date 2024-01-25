@@ -1,4 +1,39 @@
-// LOCALHOST ALL CONTACTS ### GET http://localhost:8080/contacts
-// LOCALHOST Savanna ### GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29d0
-// LOCALHOST Luc ### GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29d1
-// LOCALHOST Wes### GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29cf
+/// LOCALHOST 
+### Get ALL CONTACTS 
+GET http://localhost:8080/contacts
+
+### Get Savanna 
+GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29d0
+
+###Get Luc 
+GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29d1
+
+###Get Wes 
+GET http://localhost:8080/contacts/65aaf107ec717cfbd47c29cf
+
+### Create Kev Contact
+POST http://localhost:8080/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Kevin",
+  "lastName": "Malone",
+  "email":"kev@kev.com",
+  "favoriteColor":"Orange",
+  "birthday":"01/24/1976"
+}
+
+### Update Wes Contact
+PUT http://localhost:8080/contacts/65aaf107ec717cfbd47c29cf HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Wes",
+  "lastName": "Vane",
+  "email":"wes@wes.com",
+  "favoriteColor":"Yellow",
+  "birthday":"01/27/2000"
+}
+
+### Delete Kev Contact
+DELETE http://localhost:8080/contacts/65b1a604b10c7e03ecabd8f6 HTTP/1.1

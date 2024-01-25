@@ -1,21 +1,23 @@
-[{
-  "firstName": "Wes",
-  "lastName": "Vane",
-  "email": "wes@wes.com",
-  "favoriteColor": "Yellow",
-  "birthday": "01/27/2000"
-},
-{
-  "firstName": "Savanna",
-  "lastName": "Boston",
-  "email": "savanna@savanna.com",
-  "favoriteColor": "Black",
-  "birthday": "09/01/2001"
-},
-{
-  "firstName": "Luc",
-  "lastName": "Vane",
-  "email": "luc@luc.com",
-  "favoriteColor": "Blue",
-  "birthday": "04/19/2003"
-}]
+[
+  {
+    "firstName": "Wes",
+    "lastName": "Vane",
+    "email": "wes@wes.com",
+    "favoriteColor": "Yellow",
+    "birthday": "01/27/2000"
+  },
+  {
+    "firstName": "Savanna",
+    "lastName": "Boston",
+    "email": "savanna@savanna.com",
+    "favoriteColor": "Black",
+    "birthday": "09/01/2001"
+  },
+  {
+    "firstName": "Luc",
+    "lastName": "Vane",
+    "email": "luc@luc.com",
+    "favoriteColor": "Blue",
+    "birthday": "04/19/2003"
+  }
+]
