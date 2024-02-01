@@ -37,3 +37,20 @@ Content-Type: application/json
 
 ### Delete Kev Contact
 DELETE http://localhost:8080/contacts/65b1a73931ed111e142a34bf HTTP/1.1
+
+
+
+### This shows all contacts aka GET Request
+https://cse341wesvane.onrender.com/api-docs/#/default/get_contacts_
+
+### This allows you to create a new contact aka POST Request
+https://cse341wesvane.onrender.com/api-docs/#/default/post_contacts_
+
+### This allows you to get the info for one contact (with the correct ID) aka GET Request
+https://cse341wesvane.onrender.com/api-docs/#/default/get_contacts__id_
+
+### This allows you to update any contact (with the correct ID) aka PUT Reuest
+https://cse341wesvane.onrender.com/api-docs/#/default/put_contacts__id_
+
+### This allows the user to delete any contact (with the correct ID) aka DELETE Request
+https://cse341wesvane.onrender.com/api-docs/#/default/delete_contacts__id_
