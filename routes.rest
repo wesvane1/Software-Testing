@@ -31,9 +31,9 @@ Content-Type: application/json
   "firstName": "Wes",
   "lastName": "Vane",
   "email":"wes@wes.com",
-  "favoriteColor":"Yellow",
-  "birthday":"01/27/2000"
+  "favoriteColor":"Blue",
+  "birthday":"01/27/2023"
 }
 
 ### Delete Kev Contact
-DELETE http://localhost:8080/contacts/65b1a604b10c7e03ecabd8f6 HTTP/1.1
+DELETE http://localhost:8080/contacts/65b1a73931ed111e142a34bf HTTP/1.1
