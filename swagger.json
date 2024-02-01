@@ -5,7 +5,7 @@
     "description": "This is where all contact info is held",
     "version": "1.0.0"
   },
-  "host": "cse341wesvane.onrender.com/",
+  "host": "cse341wesvane.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
