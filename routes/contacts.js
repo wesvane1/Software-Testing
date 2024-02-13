@@ -1,4 +1,5 @@
 const express = require('express');
+const { birthdayValidation } = require('../validation.js')
 const router = express.Router();
 
 const contactsController = require('../controllers/contacts');
@@ -9,7 +10,7 @@ router.get('/:id', contactsController.getSingle);
 
 router.post('/', contactsController.createContact);
 
-router.put('/:id', contactsController.updateContact);
+router.put('/:id', birthdayValidation, contactsController.updateContact);
 
 router.delete('/:id', contactsController.deleteContact);
 
