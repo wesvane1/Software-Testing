@@ -8,7 +8,7 @@ router.get('/', contactsController.getAll);
 
 router.get('/:id', contactsController.getSingle);
 
-router.post('/', birthdayValidation, contactsController.createContact);
+router.post('/', birthdayValidation(), contactsController.createContact);
 
 router.put('/:id', contactsController.updateContact);
 
